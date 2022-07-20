@@ -11,19 +11,13 @@
             "not op_mini all",
             "not dead"
           ]
-        },
-        "exclude": [
-          "transform-typeof-symbol",
-          "es6.object.assign",
-          "es6.object.keys",
-          "es6.array.iterator",
-          "web.dom.iterable"
-        ],
-        "loose": true
+        }
       }
     ],
     "@babel/preset-react",
     "@babel/preset-flow"
   ],
-  "plugins": ["@babel/plugin-proposal-class-properties"]
+  "plugins": [
+    "@babel/plugin-proposal-class-properties"
+  ]
 }
